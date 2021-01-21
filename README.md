@@ -1,10 +1,10 @@
 # BACKEND 
-    Amazon Project, upload files: back-end with NodeJS.
+Amazon Project, upload files: back-end with NodeJS.
 
-For install:
+*For install:*
+    
+    npm install
 
-### 'npm install'
+*For run:*
 
-For run:
-
-### 'yarn dev'
+    yarn dev
