@@ -1,7 +1,11 @@
 const routes = require('express').Router();
+const multer = require('multer');
+const multerConfig = require('./config/multer');
 
-routes.get('/teste', (request, response) => {
-    return response.json({ message: 'Hello Júnior!'})
+routes.post('/posts', multer(multerConfig).single('file'), (req, res) => {
+    console.log(req.file);
+
+    return res.json({ message: 'Hello Júnior!'})
 });
 
 module.exports = routes;
