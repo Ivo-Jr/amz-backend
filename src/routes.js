@@ -6,6 +6,6 @@ routes.post('/posts', multer(multerConfig).single('file'), (req, res) => {
     console.log(req.file);
 
     return res.json({ message: 'Hello Júnior!'})
-});
+}) ;
 
 module.exports = routes;
