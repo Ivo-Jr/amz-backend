@@ -5,10 +5,10 @@ In this project, the backend will receive the files / videos provided by the fro
 For this purpose it was used:
 
 <ul>
-    multer: middleware for transferring multpart / form-data files;
-    morgan: middleware that logs HTTP reissues;
-    nodemon: automatic application restart;
-    mongoose: Odm for manipulating the database.
+    <li> multer: middleware for transferring multpart / form-data files; <li>
+    <li> morgan: middleware that logs HTTP reissues; <li>
+    <li> nodemon: automatic application restart; <li>
+    <li> mongoose: Odm for manipulating the database. <li>
 <ul>
     
 *For install:*
