@@ -11,7 +11,6 @@ For this purpose it was used:
     <li> mongoose: Odm for manipulating the database. </li>
 <ul>
 
-
 *For install:*
     
     npm install
